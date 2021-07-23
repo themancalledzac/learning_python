@@ -10,6 +10,9 @@ list.append(x)  # Add an item to the end of the list
 
 # extend the list by appending all the items from the iterable
 list.extent(iterable)
+# fruits.extend('avocado')
+# >> > fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana', 'avocado']
+
 
 # insert an item at index i, such that a.insert(0,x) inserts at the beginning and a.insert(len(a),x) is equivalent to a.append(x)
 list.insert(i, x)
@@ -50,3 +53,4 @@ list.reverse()  # reverse the elements of the list in place
 # ['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange']
 
 list.copy()  # returns a shallow copy of the list
+

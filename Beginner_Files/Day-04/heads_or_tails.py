@@ -11,9 +11,6 @@
 
 import random
 
-Heads = 1
-Tails = 0
-
 random_int = random.randint(0, 1)
 
 if random_int == 1:

@@ -11,7 +11,6 @@ position = input("Where do you want to put the treasure? ")
 
 column = int(position[0]) - 1
 row = int(position[1]) - 1
-print(row)
 map[column][row] = "x"
 # x_marks_the_spot = map[row - 1[column - 1]]
 # print(x_marks_the_spot)
