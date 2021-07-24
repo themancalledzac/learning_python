@@ -17,3 +17,5 @@ for letter in chosen_word:
         print("True")
     else:
         print("False")
+
+# Step 2

@@ -86,7 +86,11 @@ while not end_of_game:
             display[position] = letter
             minus_point = False
 
-        # TODO-2: - If guess is not a letter in the chosen_word,
+    # TODO-2: - If guess is not a letter in the chosen_word,
+
+    if guess not in chosen_word:
+        print("heya")
+
     if minus_point == True:
         lives -= 1
 
