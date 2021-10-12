@@ -37,7 +37,7 @@ def run_program():
     if response == "report":
         for key, value in resources.items():
             print(f"{key}: {value}")
-            run_program()
+        run_program()
     elif response not in ["espresso", "latte", "cappuccino"]:
         print("Please select a valid response. ")
         run_program()
