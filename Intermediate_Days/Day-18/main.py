@@ -43,12 +43,11 @@ screeny = t.Screen()
 def move():
     number_of_sides = 3
     angle = 360 / number_of_sides
-    color_number = "#000000"
+    color_number = "#111111"
     print(color_number)
     print(type(color_number))
-    tim.pencolor("#285078")
+    tim.color(color_number)
     for _ in range(8):
-        tim.color(color_number)
         for _ in range(number_of_sides):
             print(number_of_sides)
             print(angle)
@@ -62,6 +61,7 @@ def move():
         color_number = int(color_number)
         color_number += 111111
         color_number = f"#{color_number}"
+        tim.color(color_number)
         print("here lies our color_number")
         print(type(color_number))
         print(color_number)
@@ -75,3 +75,7 @@ move()
 
 
 screeny.exitonclick()
+"""
+    >> > tup = (0.2, 0.8, 0.55)
+    >> > turtle.pencolor(tup)
+"""
